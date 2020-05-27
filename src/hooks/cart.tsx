@@ -68,9 +68,8 @@ const CartProvider: React.FC = ({ children }) => {
         }
 
         setProducts([...copyProduct]);
+        await AsyncStorage.setItem(asyncStorageKey, JSON.stringify(products));
       }
-
-      await AsyncStorage.setItem(asyncStorageKey, JSON.stringify(products));
     },
     [products],
   );
@@ -85,6 +84,7 @@ const CartProvider: React.FC = ({ children }) => {
       if (productIndex >= 0) {
         copyProducts[productIndex].quantity += 1;
         setProducts([...copyProducts]);
+        await AsyncStorage.setItem(asyncStorageKey, JSON.stringify(products));
         return;
       }
 
@@ -95,7 +95,10 @@ const CartProvider: React.FC = ({ children }) => {
 
       setProducts([...products, newProduct]);
 
-      await AsyncStorage.setItem(asyncStorageKey, JSON.stringify(products));
+      await AsyncStorage.setItem(
+        asyncStorageKey,
+        JSON.stringify([...products, newProduct]),
+      );
     },
 
     [products],
