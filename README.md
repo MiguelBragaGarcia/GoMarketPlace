@@ -36,4 +36,4 @@ Inicie o emulador android
 ![tela_inicial](https://github.com/MiguelBragaGarcia/GoMarketPlace/blob/master/Project%20Images/Tela%20Inicial.png)
 ![carrinho](https://github.com/MiguelBragaGarcia/GoMarketPlace/blob/master/Project%20Images/Carrinho.png)
 
-[**Para mais imagens acesse**](https://github.com/MiguelBragaGarcia/GoMarketPlace/tree/master/Project%20Images)
+[**Veja também outras imagens do projeto**](https://github.com/MiguelBragaGarcia/GoMarketPlace/tree/master/Project%20Images)
