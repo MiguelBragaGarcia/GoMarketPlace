@@ -11,7 +11,8 @@ Primeiro temos que clonar esse repositório.
 Depois de clonado precisamso instalar as dependências do projeto.
 <pre> yarn install</pre>
 
-Também precisamos de um emulador nesse projeto eu uso o emulador do próprio android studio
+Também precisamos de um emulador nesse projeto eu uso o emulador do próprio 
+[**Android Studio**](https://developer.android.com/studio)
 
 Depois das instalações das depêndias agora podemos rodar nosso projeto.
 
