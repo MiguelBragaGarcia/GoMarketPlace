@@ -32,5 +32,7 @@ Inicie o emulador android
 <pre>yarn android</pre>
 
 # Imagens do projeto
-![tela_inicial](https://github.com/MiguelBragaGarcia/GoMarketPlace/blob/master/Project%20Images/Tela%20Inicial.png =640x480)
+![tela_inicial](https://github.com/MiguelBragaGarcia/GoMarketPlace/blob/master/Project%20Images/Tela%20Inicial.png)
 ![carrinho](https://github.com/MiguelBragaGarcia/GoMarketPlace/blob/master/Project%20Images/Carrinho.png)
+
+[**Para mais imagens acesse**](https://github.com/MiguelBragaGarcia/GoMarketPlace/tree/master/Project%20Images)
